@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Motivation</string>
+    <string name="splash_title_text">Vamos começar?</string>
+    <string name="splash_name_hint">Qual o seu nome?</string>
+    <string name="splash_save_button">Salvar</string>
 </resources>
