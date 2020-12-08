@@ -33,5 +33,4 @@ class Mock {
         val rand = Random().nextInt(filtered.size)
         return filtered[rand].description
     }
-
 }

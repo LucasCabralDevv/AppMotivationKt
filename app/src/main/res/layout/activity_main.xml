@@ -69,9 +69,9 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
-        android:layout_width="132dp"
+        android:layout_width="142dp"
         android:layout_height="3dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:background="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,7 +80,7 @@
     <Button
         android:id="@+id/mainNewPhraseButton"
         android:layout_width="wrap_content"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/ripple_button"
         android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:text="@string/main_text_button"

@@ -23,12 +23,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         if (supportActionBar != null) {
             supportActionBar!!.hide()
         }
-            //Lógica inicial
+        //Lógica inicial
         mainAllImageView.setColorFilter(resources.getColor(R.color.colorAccent))
         handleNewPhrase()
 
         mSecurityPreferences = SecurityPreferences(this)
-        mainNameTextView.text = "Olá, ${mSecurityPreferences.getString(MotivationConstants.KEY.PERSON_NAME)}"
+        val name = mSecurityPreferences.getString(MotivationConstants.KEY.PERSON_NAME)
+        mainNameTextView.text = "Olá, $name"
 
         mainNewPhraseButton.setOnClickListener(this)
         mainAllImageView.setOnClickListener(this)
