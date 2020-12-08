@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Motivation</string>
+    <string name="splash_title_text">Let\'s get started?</string>
+    <string name="splash_name_hint">What\'s your name?</string>
+    <string name="splash_save_button">Save</string>
+    <string name="main_text_button">New Phrase</string>
+</resources>

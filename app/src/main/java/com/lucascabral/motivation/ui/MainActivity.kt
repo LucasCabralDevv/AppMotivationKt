@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         mSecurityPreferences = SecurityPreferences(this)
         val name = mSecurityPreferences.getString(MotivationConstants.KEY.PERSON_NAME)
-        mainNameTextView.text = "Olá, $name"
+        mainNameTextView.text = "Hello, $name"
 
         mainNewPhraseButton.setOnClickListener(this)
         mainAllImageView.setOnClickListener(this)
